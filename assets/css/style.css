@@ -1,0 +1,8 @@
+body{
+	background-color: #ccc;
+}
+.main {
+	background-color: red;
+	height: 500px;
+	margin-top: 50px;
+}
