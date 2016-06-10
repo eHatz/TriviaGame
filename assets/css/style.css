@@ -1,8 +1,19 @@
-body{
-	background-color: #ccc;
+h1, h2, h3, p {
+	text-align: center;
 }
-.main {
-	background-color: red;
-	height: 500px;
-	margin-top: 50px;
+.container{
+	background-color: #ccc;
+	min-height: 500px;
+	margin-top: 20px;
+}
+.questDiv {
+	text-align: center;
+}
+#start, #yes, #no{
+	width: 200px;
+	font-size: 20px;
+	margin: 20px;
+}
+.ansDiv{
+	text-align: center;
 }
