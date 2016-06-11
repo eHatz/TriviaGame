@@ -1,5 +1,9 @@
-h1, h2, h3, p {
+h1, h2, h3, .questDiv, .time{
 	text-align: center;
+	font-weight: bold;
+}
+.questDiv, .time {
+	font-size: 20px;
 }
 .container{
 	background-color: #ccc;
@@ -9,11 +13,25 @@ h1, h2, h3, p {
 .questDiv {
 	text-align: center;
 }
-#start, #yes, #no{
+.answerButtons{
 	width: 200px;
 	font-size: 20px;
 	margin: 20px;
 }
 .ansDiv{
 	text-align: center;
+}
+#yes{
+	color: #ccc;
+	text-align: center;
+	font-size: 20px;
+}
+#q5Answer{
+	font-size: 30px;
+}
+#yes:hover   {color:green; background-color:transparent; text-decoration:none}
+#q5Answer:hover   {color:green; background-color:transparent; text-decoration:none}
+
+#q4Answer, #q4Hillary, #q4Trump{
+	margin: 20px;
 }
