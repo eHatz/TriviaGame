@@ -20,6 +20,8 @@
 
 var questNum = 0;
 var counter;
+var wrongCount = 0;
+var rightCount = 0;
 var pelegTime;
 var rhetoricalTime;
 var allQuestions = {
@@ -48,6 +50,7 @@ var allQuestions = {
 		}
 	},
 	wrong: function() {
+		wrongCount++;
 		var wrongSound = $('<audio>', {
 			src: 'assets/images/wrong-sound.mp3',
 			id: 'wrong-Sound',
@@ -64,6 +67,7 @@ var allQuestions = {
 		setTimeout(allQuestions.check, 1000);
 	},
 	right: function() {
+		rightCount++;
 		var rightSound = $('<audio>', {
 			src: 'assets/images/clap2.mp3',
 			id: 'right-Sound',
