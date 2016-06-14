@@ -252,12 +252,12 @@ var allQuestions = {
 
 		$('.questDiv').html(questNum + '. Click On The Smallest ');
 		$('.questDiv').append(q6Ans);
-		$('.ansDiv').html('<img id="craig" src="assets/images/craig.png" width=120px;/>');
-		$('.ansDiv').append('<img id="craig" src="assets/images/craig.png" width=150px;/>');
-		$('.ansDiv').append('<img id="craig" src="assets/images/craig.png" width=200px;/>');
-		$('.ansDiv').append('<img id="craig" src="assets/images/craig.png" width=90px;/>');
-		$('.ansDiv').append('<img id="craig" src="assets/images/craig.png" width=250px;/>');
-		$('.ansDiv').append('<img id="craig" src="assets/images/craig.png" width=190px;/>');
+		$('.ansDiv').html('<img id="craig" src="assets/images/craig.jpg" width=120px;/>');
+		$('.ansDiv').append('<img id="craig" src="assets/images/craig.jpg" width=150px;/>');
+		$('.ansDiv').append('<img id="craig" src="assets/images/craig.jpg" width=200px;/>');
+		$('.ansDiv').append('<img id="craig" src="assets/images/craig.jpg" width=90px;/>');
+		$('.ansDiv').append('<img id="craig" src="assets/images/craig.jpg" width=250px;/>');
+		$('.ansDiv').append('<img id="craig" src="assets/images/craig.jpg" width=190px;/>');
 
 		
 		$('.ansDiv #craig').on('click', allQuestions.wrong);
