@@ -133,16 +133,16 @@ var allQuestions = {
 		allQuestions.timer();
 
 		$('.questDiv').html(questNum + '. Click The Biggest Peleg');
-		$('.ansDiv').html('<img id="peleg" src="assets/images/peleg.png" width=100px;/>');
-		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.png" width=50px;/>');
-		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.png" width=150px;/>');
-		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.png" width=80px;/>');
-		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.png" width=200px;/>');
-		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.png" width=120px;/>');
-		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.png" width=25px;/>');
-		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.png" width=240px;/>');
+		$('.ansDiv').html('<img id="peleg" src="assets/images/peleg.jpg" width=100px;/>');
+		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.jpg" width=50px;/>');
+		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.jpg" width=150px;/>');
+		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.jpg" width=80px;/>');
+		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.jpg" width=200px;/>');
+		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.jpg" width=120px;/>');
+		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.jpg" width=25px;/>');
+		$('.ansDiv').append('<img id="peleg" src="assets/images/peleg.jpg" width=240px;/>');
 		function bigPeleg() {
-			$('.ansDiv').html('<img id="bigPelegImg" src="assets/images/peleg.png" width=500px;/>');
+			$('.ansDiv').html('<img id="bigPelegImg" src="assets/images/peleg.jpg" width=500px;/>');
 			$('#bigPelegImg').on('click', allQuestions.right);
 		}
 		pelegTime = setTimeout(bigPeleg, 10000);
@@ -168,7 +168,7 @@ var allQuestions = {
 			id: 'q5Answer'
 		});		
 		$('.questDiv').html(q5Ans);
-		$('.questDiv').append('. Albert Einstein, in his' + ('<img id="theory" src="assets/images/theory.png" width=70px;/>') + 'of special relativity, determined that the laws of physics are the same for all non-accelerating observers, and he showed that the speed of light within a vacuum is the same no matter the speed at which an observer travels. Based on this' + ('<img id="theory" src="assets/images/theory.png" width=70px;/>') + ', if a tree falls in the woods and no one is around, how many pancakes does the bear have?');
+		$('.questDiv').append('. Albert Einstein, in his' + ('<img id="theory" src="assets/images/theory.jpg" width=70px;/>') + 'of special relativity, determined that the laws of physics are the same for all non-accelerating observers, and he showed that the speed of light within a vacuum is the same no matter the speed at which an observer travels. Based on this' + ('<img id="theory" src="assets/images/theory.jpg" width=70px;/>') + ', if a tree falls in the woods and no one is around, how many pancakes does the bear have?');
 			
 			var q5No1 = $('<button>', {
 				text: 'Just Enough',
@@ -217,7 +217,7 @@ var allQuestions = {
 	question7: function() {
 		questNum++
 		allQuestions.timer();
-		$('.questDiv').html(questNum + '. What do a banana and a hellicopter have in common?');
+		$('.questDiv').html(questNum + '. What do a banana and a helicopter have in common?');
 		
 		var q7Answers1 = $('<button>', {
 			text: 'Neither are a mango',
@@ -280,7 +280,7 @@ var allQuestions = {
 			class: 'btn btn-primary answerButtons'
 		});
 		var q9Answers3 = $('<button>', {
-			text: 'Cunfusion',
+			text: 'Confusion',
 			id: 'q9Wrong3',
 			class: 'btn btn-primary answerButtons'
 		});
