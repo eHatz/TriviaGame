@@ -3,17 +3,18 @@
 //click on the biggest troll
 
 
-var questNum = 0;
+var questNum;
 var counter;
-var wrongCount = 0;
-var rightCount = 0;
+var wrongCount;
+var rightCount;
 var pelegTime;
 var rhetoricalTime;
 var allQuestions = {
 	time: 30,
 	startGame: function(){ // initial button
 		questNum = 0;
-
+		rightCount = 0;
+		wrongCount = 0;
 		var startBtn = $('<button/>', {
 			text: 'Start!',
 			id: 'start',
@@ -338,7 +339,7 @@ var allQuestions = {
 			class: 'btn btn-primary answerButtons'
 		});
 		$('.ansDiv').html(resetBtn);
-		$('#playAgain').on('click', allQuestions.startGame);	
+		$('#playAgain').on('click', allQuestions.startGame);
 	}
 };
 allQuestions.startGame();
