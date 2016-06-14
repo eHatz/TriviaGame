@@ -327,7 +327,7 @@ var allQuestions = {
 			$('.questDiv').html('Not bad, not bad... <br> You got ' + rightCount + ' out of 10 right.');
 
 		} else if (rightCount > 7 && rightCount <=9 ){
-			$('.questDiv').html('You\'re retty good at this <br> You got ' + rightCount + ' out of 10 right.');
+			$('.questDiv').html('You\'re pretty good at this <br> You got ' + rightCount + ' out of 10 right.');
 
 		} else {
 			$('.questDiv').html('How many times have you done this quiz?? <br> You got ' + rightCount + ' out of 10 right.');
