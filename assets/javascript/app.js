@@ -303,7 +303,7 @@ var allQuestions = {
 			class: 'btn btn-primary answerButtons'
 		});
 		var q10correct = $('<button>', {
-			text: 'Would Bang',
+			text: 'The BEST',
 			id: 'q10answer',
 			class: 'btn btn-primary answerButtons'
 		});
